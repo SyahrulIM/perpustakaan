@@ -1,6 +1,4 @@
-<main>
-<div class="caontainer-fluid">
-<div class="row">
+<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -35,6 +33,6 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
-</div>
-</div>
 </main>
+</div>
+</div>
