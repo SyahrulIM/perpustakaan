@@ -35,6 +35,7 @@ class Cekpeminjaman_Model extends CI_Model
     $return = $this->db->get('');
     return $return->result();
  }
+ 
  public function get_keyword_admin($keyword){
     
     $this->db->select(['tbl_pinjam.id_peminjaman','tbl_member.nama','tbl_buku.buku','tbl_member.alamat','tbl_member.no_telp','tbl_pinjam.tgl_pinjam','tbl_pinjam.due','tbl_pinjam.status_pengembalian']);
