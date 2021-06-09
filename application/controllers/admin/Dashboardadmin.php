@@ -5,6 +5,8 @@ class Dashboardadmin extends CI_Controller {
 
 	public function index()
 	{
+		$this->load->model('login_model');
+		$this->login_model->keamanan();
         $this->load->view('layout/admin/head');
         $this->load->view('layout/admin/sidebar');
 		$this->load->view('admin/dashboardadmin_view');
